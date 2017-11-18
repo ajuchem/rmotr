@@ -22,26 +22,24 @@ secret_message.append(list_three[1])
 var3 = list_two.pop(2)
 
 # Write an if statement checking if the length of list_two is 4
+# If it is, append var2 to secret_message
+# Otherwise, append the first item of list_two to secret_message
 if len(list_two)  == 4:
     secret_message.append(var2)
 else:
     secret_message.append(list_two[0])
-# If it is, append var2 to secret_message
-# Otherwise, append the first item of list_two to secret_message
-
 
 # Create a list in the variable list_four with the last element from list_three in it
 list_four = [list_three.pop()]
 
 
 # Write an if statement checking if length of list_one is 8
+# If it is, remove "love" from list_three
+# Otherwise, append the last element of list_one to list_four
 if len(list_one) == 8:
     list_three.remove("love")
 else:
     list_four.append(list_one.pop())
-# If it is, remove "love" from list_three
-# Otherwise, append the last element of list_one to list_four
-
 
 # Use list addition to add secret_message and list_four together, storing the result in secret_message. Can use += here
 secret_message += list_four
