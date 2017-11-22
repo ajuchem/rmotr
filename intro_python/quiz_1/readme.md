@@ -1,0 +1,2 @@
+Write a function `positions` that receives a string and 3 words, and gives you the positions of those words in the original string.
+If the word doesn't exist in the original string, it should backfill using dashes.
